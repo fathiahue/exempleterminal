@@ -1,0 +1,39 @@
+Last login: Tue Mar  2 20:31:58 on console
+soussi@MacBook-Pro-de-soussi ~ % pwd
+/Users/soussi
+soussi@MacBook-Pro-de-soussi ~ % cd ..
+soussi@MacBook-Pro-de-soussi /Users % pmd
+zsh: command not found: pmd
+soussi@MacBook-Pro-de-soussi /Users % pwd
+/Users
+soussi@MacBook-Pro-de-soussi /Users % ls
+Shared	soussi
+soussi@MacBook-Pro-de-soussi /Users % cd
+soussi@MacBook-Pro-de-soussi ~ % pwd
+/Users/soussi
+soussi@MacBook-Pro-de-soussi ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	passeport.rtfd
+soussi@MacBook-Pro-de-soussi ~ % ls-a
+zsh: command not found: ls-a
+soussi@MacBook-Pro-de-soussi ~ % cd
+soussi@MacBook-Pro-de-soussi ~ % pwd
+/Users/soussi
+soussi@MacBook-Pro-de-soussi ~ % ls -a
+.			.gitconfig		Library
+..			.zsh_sessions		Movies
+.CFUserTextEncoding	Applications		Music
+.DS_Store		Desktop			Pictures
+.Trash			Documents		Public
+.cups			Downloads		passeport.rtfd
+soussi@MacBook-Pro-de-soussi ~ % cd Images
+cd: no such file or directory: Images
+soussi@MacBook-Pro-de-soussi ~ % cd ..
+soussi@MacBook-Pro-de-soussi /Users % cd/opt
+zsh: no such file or directory: cd/opt
+soussi@MacBook-Pro-de-soussi /Users % cd../home/wilder
+zsh: no such file or directory: cd../home/wilder
+soussi@MacBook-Pro-de-soussi /Users % cd/usr/bin
+zsh: no such file or directory: cd/usr/bin
+soussi@MacBook-Pro-de-soussi /Users % cd
+soussi@MacBook-Pro-de-soussi ~ % 
